@@ -13,4 +13,6 @@ window.onload = () => {
 	var selected = document.getElementById(id);
 	selected.style.fontWeight = "bold";
 	selected.style.borderBottom = "3px solid black";
+	document.getElementById("footer").innerHTML = "<hr>www.mybank.com";
+	document.getElementById("footer").style.marginBottom = "10px";
 }
